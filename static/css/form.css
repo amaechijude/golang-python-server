@@ -1,0 +1,47 @@
+body {
+	background: rgba(3, 115, 190, 0.979);
+	color: beige;
+}
+h1 {
+	text-align: center;
+	color: beige;
+}
+#description {
+	text-align: center;
+	color: beige;
+}
+form {
+	align-content: center;
+	margin: auto 25%;
+	background: rgba(24, 25, 100, 0.904);
+}
+input[type="submit"] {
+	background: rgb(0, 130, 0);
+	margin: auto 7%;
+	width: 85%;
+	max-width: 95%;
+	align-self: center;
+	border-color: rgb(0, 130, 0);
+}
+fieldset {
+	border: none;
+	border-color: rgba(24, 25, 100, 0.904);
+}
+.profile {
+	width: 95%;
+	max-width: 95%;
+	margin: 3px auto;
+}
+textarea {
+	margin-left: 0%;
+	margin-right: 7%;
+	width: 85%;
+	max-width: 95%;
+	align-self: center;
+	color: auto;
+	background-color: auto;
+	font-size: 1rem;
+}
+.checkboxes, #fave, #dropdown {
+	display: block;
+}

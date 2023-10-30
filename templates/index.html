@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/form.css')}}" >
+		<title>Survey Form</title>
+	</head>
+	<body>
+		<h1 id="title">freeCodeCamp Survey Form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform</p>
+		<form id="survey-form" method="post" action="/from">
+			<fieldset>
+				<label for="name" id="name-label">Name <div><input type="text" placeholder="Enter your name" id="name" name="name" required class="profile" /></label>
+				<label for="email" id="email-label">Email <div><input type="email" placeholder="Enter your email" id="email" name="email" required class="profile" /></label>
+					<label for="age" id="age-label">Age <div><input type="number" placeholder="Enter your age" id="name" name="age" required class="profile" /></label>
+					<fieldset>
+				<label for="comments">Any comments or suggestions?
+					<textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+				</label>
+			</fieldset>
+			<input id="submit" type="submit" name="Submit"/>
+		</form>
+	</body>
+</html>
